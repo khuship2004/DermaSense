@@ -1,0 +1,82 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+venv/
+ENV/
+.env
+.env.*
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# TensorFlow/Keras/ML model files
+*.h5
+*.hdf5
+*.pb
+*.ckpt
+*.pth
+*.pt
+*.tflite
+*.onnx
+*.joblib
+*.pkl
+*.sav
+*.npz
+*.npy
+
+# Data files
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.db
+*.sqlite3
+*.log
+
+# Flask
+instance/
+.webassets-cache
+
+# React/Node
+node_modules/
+build/
+dist/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Misc
+*.bak
+*.swp
+*.tmp
+
+# Images (optional, if not needed in repo)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.ico
+
+# Ignore static/generated images
+backend/static/*.png
+backend/static/*.jpg
+backend/static/*.jpeg 
